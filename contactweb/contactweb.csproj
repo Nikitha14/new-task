@@ -196,12 +196,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\contactsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\contact.cs" />
+    <Compile Include="Models\contactwebContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -278,6 +282,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="images\Sorting icons.psd" />
     <None Include="Project_Readme.html" />
+    <Content Include="Views\contacts\Create.cshtml" />
+    <Content Include="Views\contacts\Delete.cshtml" />
+    <Content Include="Views\contacts\Details.cshtml" />
+    <Content Include="Views\contacts\Edit.cshtml" />
+    <Content Include="Views\contacts\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
